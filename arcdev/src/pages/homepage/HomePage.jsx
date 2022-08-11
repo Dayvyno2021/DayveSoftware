@@ -41,7 +41,7 @@ const HomePage = () => {
           >
             <Grid item xl={6} lg={6} md={6} sm={6}>
               <Typography align='center' variant='h2' sx={homepage.typo1}>
-                Bringing West Coast Technology  <br/> to Oyo state
+                Bringing Modern and Latest <br/> Technology to Oyo state
               </Typography>
               <Grid container justifyContent='center' sx={homepage.buttons}>
                 <Grid item sx={homepage.estimate} component={Link} to='/estimate'>
@@ -66,7 +66,7 @@ const HomePage = () => {
         {/* Services Block */}
         <Grid item>
           <Grid container direction='row' sx={homepage.services}>
-            <Grid item lg={8} md={10} sm={12} container >
+            <Grid item md={10} lg={8}  container >
               <Grid container direction='column' item lg={8} md={10} sm={9} 
                 justifyContent='center' alignItems={'center'}
               >
@@ -86,10 +86,6 @@ const HomePage = () => {
               <Grid item lg={4} md={2} sm={3} >
                 <img src={customSoftwareIcon} alt="" className='customImage'/>
               </Grid>
-            </Grid>
-
-            <Grid item lg={4} md={2} sm={2}>
-
             </Grid>
 
           </Grid>
@@ -129,7 +125,7 @@ const HomePage = () => {
         {/* Websites Block */}
         <Grid item>
           <Grid container direction='row' sx={homepage.services}>
-            <Grid item lg={7} md={10} sm={12} container >
+            <Grid item lg={7} md={10} sm={12} container sx={homepage.website} >
               <Grid container direction='column' item lg={8} md={10} sm={9} 
                 justifyContent='center' alignItems={'center'}
               >

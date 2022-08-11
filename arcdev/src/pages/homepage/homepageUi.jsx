@@ -89,7 +89,6 @@ export const homepage = {
     color: 'orange'
   },
   services:{
-    width: '98%',
     [theme.breakpoints.down('sm')]:{
       mx: '0.5rem'
     },
@@ -107,7 +106,7 @@ export const homepage = {
     color: 'primary.dark',
     marginTop: '1rem'
   },
-  '& .css-arr2vq-MuiTypography-root': {
+  '& .MuiTypography-root': {
     [theme.breakpoints.down('md')]: {
         fontSize: '1.5'
     },
@@ -115,12 +114,11 @@ export const homepage = {
         fontSize: '1.3rem'
     }
   },
-  '& .css-tl47hs-MuiTypography-root': {
-    [theme.breakpoints.down('md')]: {
-        fontSize: '1.1rem'
-    },
+  website: {
     [theme.breakpoints.down('sm')]: {
-        fontSize: '1rem'
+      '& h6': {
+        textAlign:'center'
+      }
     }
   },
   typos1: {

@@ -86,7 +86,8 @@ export const est={
     }
   },
 
-  estbtn:{
+  estbtn: {
+    position: 'relative',
     pt:'3rem',
     '&>button':{
       ...theme.typography.estimate,
@@ -98,6 +99,9 @@ export const est={
       '&:hover':{
         backgroundColor: 'secondary.dark'
       }
+    },
+    [theme.breakpoints.down('sm')]:{
+      transform: 'translateY(-8rem)'
     }
   },
   modal: {
